@@ -1,0 +1,91 @@
+.navigation{
+    height: 100vh;
+    width: 28vw;
+    background-color: #000000;
+    background-image: linear-gradient(#0c0c0c, #130f40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 15px;
+}
+
+.navBox{
+    width: 85%;
+}
+
+#profile{
+    width:45%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(44, 43, 43);
+}
+
+.menu{
+    color:white;
+    padding:2vh;
+    font-size: 3.4vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.menu>p{
+    padding-left: 10px;
+}
+
+.social{
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.social>.icon{
+    padding: 8px;
+}
+
+.icon:hover{
+    color: black;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.menu:hover{
+    color:#000000;
+    background-image: linear-gradient(to right, rgb(218, 22, 22) , rgb(236, 95, 13));
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation{
+        width: 85vw;
+        position: absolute;
+        top:0;
+        left:-85vw;
+        z-index: 100;
+        transition: left 1s;
+    }
+
+    #open{
+        left:0;
+    }
+    
+  }
+
+#active{
+    color:#000000;
+    background-image: linear-gradient(to right, rgb(11, 34, 236) , rgb(8, 234, 250));
+}

@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 3vw;
+}
+
+.rbtn{
+    padding: 10px;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size:3vh;
+}
+
+.rbtn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.home>h1{
+    font-size: 8vh;
+    padding: 1vh;
+}
+
+.home>h5{
+    font-size: 3vh;
+    padding: 1vh;
+}

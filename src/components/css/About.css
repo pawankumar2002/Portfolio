@@ -1,0 +1,9 @@
+.about{
+    width: 90%;
+    min-height: 80vh;
+    color: white;
+}
+
+.about>h1,.about>p{
+    padding: 15px;
+}
